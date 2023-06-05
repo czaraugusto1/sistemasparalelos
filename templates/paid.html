@@ -1,0 +1,20 @@
+<!-- paid.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Usuários Pagos</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Usuários Pagos</h2>
+    <ul class="users-list">
+      {% for user in users %}
+        <li>{{ user }}</li>
+      {% endfor %}
+    </ul>
+    <button onclick="location.reload()">Atualizar</button>
+  </div>
+</body>
+</html>

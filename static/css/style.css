@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para free.html e paid.html */
+  
+  .container {
+    max-width: 600px;
+  }
+  
+  .users-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: flex;
+  }
+  
+  .users-list li {
+    display: inline;
+    margin-right: flex; /* Reduzindo o espaçamento horizontal */
+    width: 20px; /* Ajuste a largura conforme necessário */
+  }
+  .users-list li span {
+    display: inline;
+    letter-spacing: -10px; /* Ajuste o valor conforme necessário */
+    font-family: "Courier New", Courier, monospace;
+  }
+  .normal {
+    letter-spacing: normal;
+  }
+  
+  .container button {
+    display: block;
+    margin: 10px auto; /* Reduzindo o espaçamento vertical */
+  }
+  /* Estilos para history.html */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+  }
